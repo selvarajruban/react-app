@@ -10,14 +10,6 @@ function App() {
         <p>
           <code>Welcome to React world</code>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Click to Submit
-        </a>
       </header>
     </div>
   );
