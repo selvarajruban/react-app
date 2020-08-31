@@ -1,16 +1,18 @@
-import React from 'react';
-import './App.css';
-import HomepageImage from './components/HomePageImage';
+import React, { Component } from 'react';
+import Registrations from './components/Registrations';
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
+
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <HomepageImage />
-        <p>
-          <code>Welcome to React world</code>
-        </p>
-      </header>
+    <div class="container-fluid">
+      <Header companyName="Marriage Registration" />
+      <div class="row">
+        <Sidebar />
+        <Registrations />
+      </div>
     </div>
   );
 }
