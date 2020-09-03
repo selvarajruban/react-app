@@ -1,0 +1,16 @@
+{
+	"registrations":
+	[{
+		"id": "1001",
+		"groom": "Peter",
+		"bride": "Lorra",
+		"dom": "01-Aug-20"
+	},
+	{
+		"id": "1002",
+		"groom": "Laurence",
+		"bride": "Maria",
+		"dom": "01-Aug-20"
+	}]
+
+}
